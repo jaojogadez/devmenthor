@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 02</title>
+  </head>
+  <body>
+    <h1>Cadastra-se</h1>
+    <form method="post">
+      <fieldset>
+        <legend>Cadastro</legend>
+        <!-- UL para agrupar nome, data e gênero -->
+        <ul>
+          <!-- Nome -->
+          <li class="form-group">
+            <label for="name">Nome Completo:</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Digite o seu nome completo"
+              required
+            />
+          </li>
+          <!-- Data de Nascimento -->
+          <li class="form-group">
+            <label for="birth_date">Data de Nascimento:</label>
+            <input
+              type="date"
+              name="birth_date"
+              id="birth_date"
+              placeholder="Digite sua data de nascimento"
+              required
+            />
+          </li>
+          <!-- Gênero -->
+          <li class="form-group">
+            <label for="genero">Gênero: </label>
+            <input type="radio" name="genero" id="male" value="XY" />
+            <label for="masculino">Masculino</label>
+            <input type="radio" name="genero" id="female" value="XX" />
+            <label for="feminino">Feminino</label>
+            <input type="radio" name="genero" id="other" value="null" />
+            <label for="other">Outro</label>
+          </li>
+        </ul>
+        <!-- OL para agrupar email e senha -->
+        <ol>
+          <!-- Email -->
+          <li class="form-group">
+            <label for="email">Email: </label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Digite seu melhor email"
+              required
+            />
+          </li>
+          <!-- Senha -->
+          <li class="form-group">
+            <label for="password">Senha: </label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Digite uma senha segura"
+              required
+            />
+          </li>
+        </ol>
+        <!-- Botão para enviar -->
+        <button type="submit">Enviar</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
