@@ -4,93 +4,66 @@ Repositório das aulas de mentoria da UNIMAR - Faculdade de Marília
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Project Overview
+## 📌 Visão Geral do Projeto
 
-This repository contains the materials and code examples used in the mentorship sessions at UNIMAR - Faculdade de Marília. The primary focus is on web development concepts, specifically HTML, as demonstrated by the provided code samples. This repository serves as a learning resource for students.
+Este repositório contém materiais e exemplos de código utilizados nas sessões de mentoria da **UNIMAR - Faculdade de Marília**. O foco principal é o desenvolvimento web, abordando conceitos essenciais de **HTML5**, CSS3, JAVASCRIPT, PHP e LARAVEL e sua aplicação prática.
 
-## Features and Functionality
+## 🚀 Funcionalidades e Conteúdo
 
-The current content demonstrates fundamental HTML structures and elements.
+Os arquivos neste repositório demonstram conceitos fundamentais do HTML, incluindo:
 
-*   **HTML Structure:**  Demonstrates the basic structure of an HTML document, including `<!DOCTYPE html>`, `<html>`, `<head>`, and `<body>` tags. (See: `Class 01/introdução ao HTML/index.html`)
-*   **Head Elements:** Usage of `<meta>` tags for character set and viewport configuration, and the `<title>` tag for setting the page title. (See: `Class 01/introdução ao HTML/index.html`)
-*   **Heading Elements:**  Demonstrates the use of `<h1>` to `<h6>` tags for creating different levels of headings. (See: `Class 01/introdução ao HTML/index.html`)
-*   **Paragraphs and Text Formatting:** Shows how to use `<p>` tags for paragraphs and `<b>`, `<em>`, and `<del>` tags for bold, emphasized, and deleted text formatting. (See: `Class 01/exercício 01/index.html`, `Class 01/introdução ao HTML/index.html`)
-*   **Links and Images:**  Demonstrates how to create hyperlinks using the `<a>` tag and embed images using the `<img>` tag, including the use of relative paths. (See: `Class 01/exercício 01/index.html`, `Class 01/introdução ao HTML/index.html`)
-*   **External Links:** Implements external links with the `target="_blank"` attribute. (See: `Class 01/exercício 01/index.html`, `Class 01/introdução ao HTML/index.html`)
-*   **Image Styling:** Shows how to style images using inline CSS (e.g., `border-radius`). (See: `Class 01/exercício 01/index.html`)
+✅ **Estrutura Básica do HTML:** Declaração `<!DOCTYPE html>`, organização das tags `<html>`, `<head>` e `<body>`.
+📌 **Elementos de Cabeçalho:** Uso de `<meta>`, `<title>` e outras tags importantes.  
+📝 **Títulos e Parágrafos:** Demonstração de `<h1>` a `<h6>` e formatação de textos com `<p>`, `<b>`, `<em>`, `<del>`.  
+🔗 **Links e Imagens:** Uso da tag `<a>` para hiperligações e `<img>` para imagens.
+🌐 **Links Externos:** Implementação de links com `target="_blank"` para abrir em novas abas.
+🎨 **Estilização de Imagens:** Aplicando `border-radius` via CSS inline.
 
-## Technology Stack
+## 🛠️ Tecnologias Utilizadas
+- **HTML5** – Base do projeto.
 
-*   **HTML5:** The foundation of the project.
+## 📂 Estrutura do Repositório
 
-## Prerequisites
+```
+📁 devmenthor
+ ├── 📂 Class 01
+ │   ├── 📂 introdução ao HTML
+ │   │   ├── index.html
+ │   ├── 📂 exercício 01
+ │   │   ├── index.html
+ ├── README.md
+ ├── LICENSE
+```
 
-To run the code in this repository, you will need:
+## 🔧 Como Utilizar
 
-*   A web browser (e.g., Chrome, Firefox, Safari, Edge).
-*   A text editor or IDE (e.g., VS Code, Sublime Text, Atom) for viewing and editing the code.
-
-## Installation Instructions
-
-No installation is required to view the HTML files. Simply download or clone the repository to your local machine.
-
+### 📥 Clonando o Repositório
 ```bash
 git clone https://github.com/jaojogadez/devmenthor.git
 cd devmenthor
 ```
+### 🌐 Visualização dos Arquivos
 
-## Usage Guide
+Para visualizar os arquivos HTML:
+1. Navegue até a pasta correspondente.
+2. Abra o arquivo `.html` diretamente no navegador.
 
-To view the HTML files, simply open them in your web browser. For example, to view the "Quem sou eu?" page, navigate to the `Class 01/exercício 01/` directory in your file system and open the `index.html` file with your browser.
+Exemplo:
+- Para abrir a página **"Quem sou eu?"**, acesse `Class 01/exercício 01/` e abra `index.html` no navegador.
 
-## API Documentation
+## 🤝 Contribuições
 
-Not applicable, as this project does not contain any APIs.
+Contribuições são bem-vindas! Para colaborar:
+1. Faça um **fork** do repositório.
+2. Crie um **branch** para sua funcionalidade ou correção de bug.
+3. Faça suas modificações e **commite** com mensagens descritivas.
+4. Envie um **pull request** para o branch `main`.
 
-## Contributing Guidelines
+## 📜 Licença
+Este projeto está licenciado sob a **MIT License**. Consulte o arquivo `LICENSE` para mais detalhes.
 
-Contributions are welcome! If you would like to contribute to this repository, please follow these guidelines:
+## 📩 Contato e Suporte
+Para dúvidas ou suporte, entre em contato:
+📌 **João Pedro de Oliveira**
+🔗 **GitHub:** [jaojogadez](https://github.com/jaojogadez)
 
-1.  Fork the repository.
-2.  Create a new branch for your feature or bug fix.
-3.  Make your changes and commit them with descriptive commit messages.
-4.  Submit a pull request to the `main` branch.
-
-Please ensure that your code adheres to the existing code style and includes appropriate comments and documentation.
-
-## License Information
-
-This project is licensed under the MIT License. See the `LICENSE` file for more information.
-
-```
-MIT License
-
-Copyright (c) 2024 João Pedro de Oliveira
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-```
-
-## Contact/Support Information
-
-For questions or support, please contact:
-
-*   João Pedro de Oliveira
-*   Github: [https://github.com/jaojogadez](https://github.com/jaojogadez)
