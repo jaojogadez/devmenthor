@@ -12,17 +12,18 @@ Este repositório contém materiais e exemplos de código utilizados nas sessõe
 
 Os arquivos neste repositório demonstram conceitos fundamentais do HTML, incluindo:
 
-✅ **Estrutura Básica do HTML:** Declaração `<!DOCTYPE html>`, organização das tags `<html>`, `<head>` e `<body>`.
-📌 **Elementos de Cabeçalho:** Uso de `<meta>`, `<title>` e outras tags importantes.  
-📝 **Títulos e Parágrafos:** Demonstração de `<h1>` a `<h6>` e formatação de textos com `<p>`, `<b>`, `<em>`, `<del>`.  
-🔗 **Links e Imagens:** Uso da tag `<a>` para hiperligações e `<img>` para imagens.
-🌐 **Links Externos:** Implementação de links com `target="_blank"` para abrir em novas abas.
-🎨 **Estilização de Imagens:** Aplicando `border-radius` via CSS inline.
+✅ **Estrutura Básica do HTML:** Declaração `<!DOCTYPE html>`, organização das tags `<html>`, `<head>` e `<body>`. <br> 
+📌 **Elementos de Cabeçalho:** Uso de `<meta>`, `<title>` e outras tags importantes.  <br> 
+📝 **Títulos e Parágrafos:** Demonstração de `<h1>` a `<h6>` e formatação de textos com `<p>`, `<b>`, `<em>`, `<del>`. <br> 
+🔗 **Links e Imagens:** Uso da tag `<a>` para hiperligações e `<img>` para imagens. <br> 
+🌐 **Links Externos:** Implementação de links com `target="_blank"` para abrir em novas abas. <br> 
+🎨 **Estilização de Imagens:** Aplicando `border-radius` via CSS inline. <br> 
 
 ## 🛠️ Tecnologias Utilizadas
-- **HTML5** – Base do projeto.
+- **HTML5** – Estrutura.
+- **CSS3** – Estilização.
 
-## Web Login Atividade
+## Deploy da atividade prática Web Login
 https://jaojogadez.github.io/devmenthor/loginWeb
 
 ## 📂 Estrutura do Repositório
