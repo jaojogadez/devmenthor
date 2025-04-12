@@ -2,8 +2,6 @@
 
 Repositório das aulas de mentoria da UNIMAR - Faculdade de Marília
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 ## 📌 Visão Geral do Projeto
 
 Este repositório contém materiais e exemplos de código utilizados nas sessões de mentoria da **UNIMAR - Faculdade de Marília**. O foco principal é o desenvolvimento web, abordando conceitos essenciais de **HTML5**, CSS3, JAVASCRIPT, PHP e LARAVEL e sua aplicação prática.
