@@ -8,7 +8,7 @@ Repositório das aulas de mentoria da UNIMAR - Faculdade de Marília
 
 Este repositório contém materiais e exemplos de código utilizados nas sessões de mentoria da **UNIMAR - Faculdade de Marília**. O foco principal é o desenvolvimento web, abordando conceitos essenciais de **HTML5**, CSS3, JAVASCRIPT, PHP e LARAVEL e sua aplicação prática.
 
-Anotei todo o conteúdo das aulas em [<a href="https://safe-coil-e10.notion.site/DevMenthor-1d3b88e5901b807e9e7fc0d468f148fb" target="_blank">Acesse Aqui</a>]
+🔗 Anotei todo o conteúdo das aulas em: [<a href="https://safe-coil-e10.notion.site/DevMenthor-1d3b88e5901b807e9e7fc0d468f148fb" target="_blank">Acesse Aqui</a>]
 
 ## 🚀 Funcionalidades e Conteúdo
 
