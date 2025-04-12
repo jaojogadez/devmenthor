@@ -1,4 +1,4 @@
-# devmenthor
+# DevMenthor
 
 Repositório das aulas de mentoria da UNIMAR - Faculdade de Marília
 
@@ -37,7 +37,11 @@ https://jaojogadez.github.io/devmenthor/loginWeb
  ├── README.md
  ├── LICENSE
 ```
+# ⚠️ Atenção - Repositório em Desenvolvimento...
+Para qualquer dúvida ou problema, entre em contato via GitHub: [@jaojogadez](https://github.com/jaojogadez).
 
+
+<!-- 
 ## 🔧 Como Utilizar
 
 ### 📥 Clonando o Repositório
@@ -68,5 +72,5 @@ Este projeto está licenciado sob a **MIT License**. Consulte o arquivo `LICENSE
 ## 📩 Contato e Suporte
 Para dúvidas ou suporte, entre em contato:
 📌 **João Pedro de Oliveira**
-🔗 **GitHub:** [jaojogadez](https://github.com/jaojogadez)
+🔗 **GitHub:** [jaojogadez](https://github.com/jaojogadez) -->
 
