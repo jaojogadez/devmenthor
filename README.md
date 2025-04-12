@@ -23,7 +23,7 @@ Os arquivos neste repositório demonstram conceitos fundamentais do HTML, inclui
 - **HTML5** – Base do projeto.
 
 ## Web Login Atividade
-https://jaojogadez.github.io/devmenthor/webLogin
+https://jaojogadez.github.io/devmenthor/loginWeb
 
 ## 📂 Estrutura do Repositório
 
