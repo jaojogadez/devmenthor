@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <section>
+            <h1>Responsividade - Tabela Descritiva</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Unidades de Medida</th>
+                        <th>Baseada em...</th>
+                        <th>Uso recomendado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>%</td>
+                        <td>Elemento Pai</td>
+                        <td>Largura de containers</td>
+                    </tr>
+                    <tr>
+                        <td>VW / VH</td>
+                        <td>Tamanho da tela</td>
+                        <td>Elementos de tela cheia</td>
+                    </tr>
+                    <tr>
+                        <td>EM</td>
+                        <td>Elemento Pai</td>
+                        <td>Fontes e espaçamentos relativos</td>
+                    </tr>
+                    <tr>
+                        <td>REM</td>
+                        <td>Raiz do HTML</td>
+                        <td>Fontes consistentes no site</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h1>Media Query - Padrões</h1>
+            <p>
+                Os <strong>breakpoints</strong> definem as larguras da tela nas quais devemos ajustar o layout.
+            </p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Dispostivo</th>
+                        <th>Largura da tela (px) </th>
+                        <th>Exemplo de media query</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Celular pequeno </td>
+                        <td>até 480px</td>
+                        <td>@media (max-width: 480px) {...}</td>
+                    </tr>
+                    <tr>
+                        <td>Celular grande </td>
+                        <td>até 768px</td>
+                        <td>@media (min-width: 481px) and (max-width: 768px) {...}</td>
+                    </tr>
+                    <tr>
+                        <td>Tablet </td>
+                        <td>até 1024px</td>
+                        <td>@media (min-width: 769px) and (max-width: 1024px) {...}</td>
+                    </tr>
+                    <tr>
+                        <td>Desktop </td>
+                        <td>acima de 1024px</td>
+                        <td>@media (min-width: 1025px) {...}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+</html>
