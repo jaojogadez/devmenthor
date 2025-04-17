@@ -16,6 +16,8 @@ html {
   color: var(--text-color);
   font: var(--main-font);
   min-height: 100vh;
+  position: relative;
+  margin: 0;
 }
 
 /* Navbar configs */
@@ -52,13 +54,53 @@ html {
   margin-right: 3rem;
 }
 
-.navbar .navbar-nav .nav-link {
+.sidebar {
+  position: absolute;
+  background-color: var(--background-color);
+  width: 50vw;
+  height: 110vh !important;
+  top: 0;
+  right: -100%;
+  padding: 0 3rem;
+  box-shadow: 0 0 40px black;
+  transition: all 300ms ease-in-out;
+}
+
+.sidebar .sidebar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sidebar .sidebar-header span,
+.navbar span {
+  cursor: pointer;
+}
+.sidebar .sidebar-header span:hover,
+.navbar span:hover {
+  opacity: .5;
+}
+
+.sidebar.show-sidebar {
+  right: 0;
+}
+
+.sidebar .navbar-nav {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.navbar .navbar-nav .nav-link,
+.sidebar .navbar-nav .nav-link {
   text-decoration: none;
   color: var(--text-color);
   transition: all 200ms ease-in-out;
 }
 
-.navbar .navbar-nav .nav-link:hover {
+.navbar .navbar-nav .nav-link:hover,
+.sidebar .navbar-nav .nav-link:hover {
   color: var(--primary-color);
 }
 
@@ -151,6 +193,12 @@ html {
   .navbar .navbar-nav {
     visibility: initial;
   }
+
+  .sidebar,
+  .navbar span {
+    display: none;
+  }
+
 
   .main-content {
     display: flex;

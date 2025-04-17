@@ -1,41 +1,69 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login Web</title>
-    <link rel="stylesheet" href="./src/styles/index.css">
-</head>
-<body>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./src/styles/index.css" />
+  </head>
+  <body>
     <nav class="navbar">
       <div class="container">
-          <a href="#" class="nav-logo">LW</a>
-          <ul class="navbar-nav">
-            <li><a href="#" class="nav-link">Home</a></li>
-            <li><a href="#" class="nav-link">Sobre</a></li>
-            <li><a href="#" class="nav-link">Contato</a></li>
-            <li><a href="./register.html" class="nav-link">Cadastrar</a></li>
-          </ul>
+        <a href="#" class="nav-logo">LW</a>
+        <ul class="navbar-nav">
+          <li><a href="#" class="nav-link">Home</a></li>
+          <li><a href="#" class="nav-link">Sobre</a></li>
+          <li><a href="#" class="nav-link">Contato</a></li>
+          <li><a href="./register.html" class="nav-link">Cadastrar</a></li>
+        </ul>
+        <span class="material-icons"> menu </span>
       </div>
     </nav>
+    <div class="sidebar">
+      <div class="sidebar-header">
+        <h2>Menu</h2>
+        <span class="material-icons"> close </span>
+        <!-- <img src="./src/assets/close.svg" alt="close-button"> -->
+      </div>
+      <ul class="navbar-nav">
+        <li><a href="#" class="nav-link">Home</a></li>
+        <li><a href="#" class="nav-link">Sobre</a></li>
+        <li><a href="#" class="nav-link">Contato</a></li>
+        <li><a href="./register.html" class="nav-link">Cadastrar</a></li>
+      </ul>
+    </div>
     <main class="main-content container">
-        <section class="col-6">
-            <h1>Bem vindo ao meu Primeiro Projeto</h1>
-            <form action="" method="post" autocomplete="off">
-                <div class="form-group">
-                    <label for="email" class="form-label">E-mail</label>
-                    <input type="email" name="email" id="email" required class="form-input"> 
-                </div>
-                <div class="form-group">
-                    <label for="password" class="form-label">Senha</label>
-                    <input type="password" name="password" id="password" required class="form-input"> 
-                </div>
-                <input type="submit" value="Entrar" class="btn-primary">
-            </form>
-        </section>
-        <section class="col-6 img-container">
-            <img src="./src/assets/login.png" alt="login-user-image" class="img">
-        </section>
+      <section class="col-6">
+        <h1>Bem vindo ao meu Primeiro Projeto</h1>
+        <form action="" method="post" autocomplete="off">
+          <div class="form-group">
+            <label for="email" class="form-label">E-mail</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              required
+              class="form-input"
+            />
+          </div>
+          <div class="form-group">
+            <label for="password" class="form-label">Senha</label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              required
+              class="form-input"
+            />
+          </div>
+          <input type="submit" value="Entrar" class="btn-primary" />
+        </form>
+      </section>
+      <section class="col-6 img-container">
+        <img src="./src/assets/login.png" alt="login-user-image" class="img" />
+      </section>
     </main>
-</body>
+    <script src="./src/script.js"></script>
+  </body>
 </html>
