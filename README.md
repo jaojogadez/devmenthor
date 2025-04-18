@@ -10,6 +10,10 @@ Este repositório contém materiais e exemplos de código utilizados nas sessõe
 
 🔗 Anotei todo o conteúdo das aulas em: [<a href="https://safe-coil-e10.notion.site/DevMenthor-1d3b88e5901b807e9e7fc0d468f148fb" target="_blank">Acesse Aqui</a>]
 
+## Deploy da atividade prática Web Login
+https://jaojogadez.github.io/devmenthor/loginWeb
+
+<!--
 ## 🚀 Funcionalidades e Conteúdo
 
 Os arquivos neste repositório demonstram conceitos fundamentais do HTML, incluindo:
@@ -20,13 +24,11 @@ Os arquivos neste repositório demonstram conceitos fundamentais do HTML, inclui
 🔗 **Links e Imagens:** Uso da tag `<a>` para hiperligações e `<img>` para imagens. <br> 
 🌐 **Links Externos:** Implementação de links com `target="_blank"` para abrir em novas abas. <br> 
 🎨 **Estilização de Imagens:** Aplicando `border-radius` via CSS inline. <br> 
+-->
 
 ## 🛠️ Tecnologias Utilizadas
 - **HTML5** – Estrutura.
 - **CSS3** – Estilização.
-
-## Deploy da atividade prática Web Login
-https://jaojogadez.github.io/devmenthor/loginWeb
 
 ## 📂 Estrutura do Repositório
 
