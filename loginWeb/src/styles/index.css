@@ -196,7 +196,7 @@ html {
 
   .sidebar,
   .navbar span {
-    display: none;
+    display: none !important;
   }
 
 
