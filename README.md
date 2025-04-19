@@ -10,12 +10,21 @@ Este repositório contém materiais e exemplos de código utilizados nas sessõe
 
 🔗 Anotei todo o conteúdo das aulas em: [<a href="https://safe-coil-e10.notion.site/DevMenthor-1d3b88e5901b807e9e7fc0d468f148fb" target="_blank">Acesse Aqui</a>]
 
-## Deploy da atividade prática Web Login
+## 🌐 Deploy da atividade prática Web Login
 ![Projeto  - Web Login Home](https://github.com/user-attachments/assets/fc74d42d-3830-4eaf-878a-1202658a4b19)
 
 ![Projeto  - Web Login Register](https://github.com/user-attachments/assets/68e6dc31-e2f2-46d7-9fec-51b46f03c1c8)
 
+Esse projeto foi uma atividade para colocar em prática os conceitos de HTML e CSS aprendidos até o momento, criando uma interface de login e uma de registro. Para isso, eu utilizei: <br>
+
+✅ HTML5 e CSS3 para estruração e estilização <br>
+✅ FlexBox para o layout <br>
+✅ Adicionei responsividade com um menu lateral, possibilitando o acesso em dispositivos móveis, como o celular. <br>
+✅ JavaScript para o menu lateral funcionar. <br>
+
 https://jaojogadez.github.io/devmenthor/loginWeb
+
+
 
 <!--
 ## 🚀 Funcionalidades e Conteúdo
@@ -30,7 +39,7 @@ Os arquivos neste repositório demonstram conceitos fundamentais do HTML, inclui
 🎨 **Estilização de Imagens:** Aplicando `border-radius` via CSS inline. <br> 
 -->
 
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas até o momento
 - **HTML5** – Estrutura.
 - **CSS3** – Estilização.
 
@@ -38,11 +47,24 @@ Os arquivos neste repositório demonstram conceitos fundamentais do HTML, inclui
 
 ```
 📁 devmenthor
- ├── 📂 Class 01
- │   ├── 📂 introdução ao HTML
- │   │   ├── index.html
- │   ├── 📂 exercício 01
- │   │   ├── index.html
+ ├── 📂 Classes (conteúdo prático das aulas)
+ │   ├── 📂 Class 01
+ │   ├── 📂 Class 02
+ │   ├── 📂 Class 03
+ ├── 📂 Exercises 
+ │   ├── 📂 exercise_01
+ │   ├── 📂 exercise_02
+ ├── 📂 loginWeb 
+ │   ├── 📂 src
+ │   │   ├── 📂 assets
+ │   │   │   ├── cadastre.png
+ │   │   │   ├── login.png
+ │   │   │   ├── close.svg
+ │   │   ├── 📂 styles
+ │   │   │   ├── index.css
+ │   │   ├── script.js
+ │   ├── index.html
+ │   ├── register.html
  ├── README.md
  ├── LICENSE
 ```
