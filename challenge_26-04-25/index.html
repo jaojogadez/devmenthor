@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./src/styles/index.css" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="nav-logo">Login</a>
+            <ul class="navbar-nav">
+                <li><a href="#" class="nav-link active">Home</a></li>
+                <li><a href="#" class="nav-link">Contato</a></li>
+                <li><a href="./cadastre.html" class="nav-link">Cadastrar</a></li>
+            </ul>
+            <span class="material-icons"> menu </span>
+        </div>
+    </nav>
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <h2>Menu</h2>
+            <span class="material-icons"> close </span>
+        </div>
+        <ul class="navbar-nav">
+            <li><a href="#" class="nav-link active">Home</a></li>
+            <li><a href="#" class="nav-link">Contato</a></li>
+            <li><a href="./cadastre.html" class="nav-link">Cadastrar</a></li>
+        </ul>
+    </div>
+    <!-- Main Content -->
+    <main class="main container">
+        <section class="col-6">
+            <h1>Bem vindo de volta</h1>
+            <p class="text-secondary">
+                Entre com seus dados para acessar sua conta
+            </p>
+            <form method="post" class="container" autocomplete="off">
+                <div class="form-group">
+                    <label for="email" class="form-label">E-mail</label>
+                    <input type="email" name="email" id="email" required class="form-input" />
+                </div>
+                <div class="form-group">
+                    <label for="password" class="form-label">Senha</label>
+                    <input type="password" name="password" id="password" required class="form-input" />
+                </div>
+                <input type="submit" value="Entrar" class="btn-primary" />
+                <p class="register">
+                    Não tem conta? <a href="./cadastre.html">Criar</a>
+                </p>
+            </form>
+        </section>
+        <section class="col-6 img-container">
+            <img src="./src/assets/image.svg" alt="login-user-image" class="img" />
+        </section>
+    </main>
+        <script src="./src/main.js"></script>
+</body>
+
+</html>
