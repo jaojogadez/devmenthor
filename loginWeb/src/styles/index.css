@@ -55,6 +55,7 @@ html {
   margin-right: 3rem;
 }
 
+/* Sidebar configs */
 .sidebar {
   position: absolute;
   background-color: var(--background-color);
