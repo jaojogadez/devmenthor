@@ -24,7 +24,7 @@ html {
     background-color: var(--background-color);
     color: var(--text-color);
     font: var(--main-font);
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 
 /* Register Page Start */
