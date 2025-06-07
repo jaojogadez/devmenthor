@@ -1,0 +1,12 @@
+@import url("./vars.css");
+
+.col-6 img {
+    width: 100%;
+    height: 417px;
+    object-fit: cover;
+}
+
+.col-6 h1 {
+    color: var(--branco);
+    font-size: calc(1em + vw);
+}

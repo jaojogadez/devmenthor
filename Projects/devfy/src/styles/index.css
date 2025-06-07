@@ -1,7 +1,12 @@
+/* Links CSS */
+
 @import url("./vars.css");
+@import url("./splash.css");
+
+/* Global Configs */
 
 body {
-    background-color: var(--azul);
+    background-color: var(--azul-claro);
     font: var(--font);
 }
 
@@ -22,9 +27,8 @@ body {
 }
 
 .col-6 {
-    padding: 1rem;
     width: 100%;
-    height: 300px;
+    height: auto;
     border: 1px solid black;
 }
 
