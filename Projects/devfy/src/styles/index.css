@@ -5,7 +5,14 @@
 
 /* Global Configs */
 
-body {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
     background-color: var(--azul-claro);
     font: var(--font);
 }
@@ -28,12 +35,13 @@ body {
 
 .col-6 {
     width: 100%;
-    height: auto;
+    height: 49.5vh;
     border: 1px solid black;
 }
 
 @media (min-width: 768px) {
     .col-6 {
         width: 50%;
+        height: auto;
     }
 }

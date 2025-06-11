@@ -1,12 +1,37 @@
 @import url("./vars.css");
 
-.col-6 img {
-    width: 100%;
-    height: 417px;
-    object-fit: cover;
+.container-sm .col-6:first-child {
+    background: transparent url("../assets/logo-1.png") no-repeat right center/cover ;
 }
 
 .col-6 h1 {
     color: var(--branco);
-    font-size: calc(1em + vw);
+    font-size: calc(1em + 5vw);
+    max-width: 450px;
+}
+
+.container-sm .col-6:nth-child(2) {
+    padding: 2rem;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3rem;
+}
+
+.btn {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 0;
+    background-color: transparent;
+    color: var(--branco);
+    font: normal bold 2em var(--font);
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+}
+
+.btn:hover {
+    transform: scale(.9);
 }
