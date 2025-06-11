@@ -1,10 +1,10 @@
-# DevMenthor
+# DevMenthors
 
-Repositório das aulas de mentoria da UNIMAR - Faculdade de Marília
+Repositório das aulas de **mentoria de desenvolvimento web** da UNIMAR - Universidade de Marília
 
 ## 📌 Visão Geral do Projeto
 
-Este repositório contém materiais e exemplos de código utilizados nas sessões de mentoria da **UNIMAR - Faculdade de Marília**. O foco principal é o desenvolvimento web, abordando conceitos essenciais de **HTML5**, CSS3, JAVASCRIPT, PHP e LARAVEL e sua aplicação prática.
+Este repositório contém materiais e exemplos de código utilizados nas sessões de mentoria da **UNIMAR - Faculdade de Marília**. O foco principal é o desenvolvimento web, abordando conceitos essenciais de **HTML5**, **CSS3**, **JAVASCRIPT**, **UI/UX Design** com FIGMA, **PHP** e **LARAVEL** com suas aplicações práticas. Além de **boas práticas de práticas de programação** e **habilidades essenciais para o mercado de trabalho** como trabalho em equipe, comunicação, entrega com prazos e principalmente resolução de problemas.
 
 ![devmenthors](https://github.com/user-attachments/assets/63e3cbe1-e0fa-4ab3-9005-078777bc58d5)
 
@@ -73,28 +73,7 @@ Esse projeto foi desenvolvido acompanhado de um figma, também desenvolvido por 
 ├── 📜 LICENSE        # ⚖️ Licença
 └── 📄 README.md      # 📖 Documentação Principal
 ```
-# ⚠️ Atenção - Repositório em Desenvolvimento...
-Para qualquer dúvida ou problema, entre em contato via GitHub: [@jaojogadez](https://github.com/jaojogadez).
-
-
-<!-- 
-## 🔧 Como Utilizar
-
-### 📥 Clonando o Repositório
-```bash
-git clone https://github.com/jaojogadez/devmenthor.git
-cd devmenthor
-```
-### 🌐 Visualização dos Arquivos
-
-Para visualizar os arquivos HTML:
-1. Navegue até a pasta correspondente.
-2. Abra o arquivo `.html` diretamente no navegador.
-
-Exemplo:
-- Para abrir a página **"Quem sou eu?"**, acesse `Class 01/exercício 01/` e abra `index.html` no navegador.
-
-## 🤝 Contribuições
+## 🤝 Deseja Contribuir?
 
 Contribuições são bem-vindas! Para colaborar:
 1. Faça um **fork** do repositório.
@@ -102,11 +81,21 @@ Contribuições são bem-vindas! Para colaborar:
 3. Faça suas modificações e **commite** com mensagens descritivas.
 4. Envie um **pull request** para o branch `main`.
 
+## 📩 Me acompanhe nas Redes Sociais!
+
+<a href="https://www.instagram.com/jaojogadez/"> ![instagram](https://github.com/user-attachments/assets/69e115ee-36cd-4d9e-98bb-7ce3a409db62) @jaojogadez</a> <br>
+<a href="https://www.linkedin.com/in/jaocodadez/"> ![linkedin](https://github.com/user-attachments/assets/46ccf5e9-d8f0-4e93-b18b-3d3289a33f11) @jaocodadez</a> <br>
+<a href="https://github.com/jaojogadez"> ![github](https://github.com/user-attachments/assets/c5a84e4f-0fa6-4e14-8035-c3cae19bd8e7) @jaocodadez</a>
+
+# ⚠️ Atenção - Repositório em Desenvolvimento...
+Para qualquer dúvida ou problema, entre em contato via GitHub: [@jaojogadez](https://github.com/jaojogadez).
+
 ## 📜 Licença
 Este projeto está licenciado sob a **MIT License**. Consulte o arquivo `LICENSE` para mais detalhes.
 
-## 📩 Contato e Suporte
-Para dúvidas ou suporte, entre em contato:
-📌 **João Pedro de Oliveira**
-🔗 **GitHub:** [jaojogadez](https://github.com/jaojogadez) -->
+<br>
+<br>
+<br>
+
+<p align="center">💪 Desenvolvido por <a href="https://www.linkedin.com/in/jaocodadez/">@jaocodadez</a> - 𝙁𝙚𝙘𝙝𝙖𝙙𝙖̃𝙤 🤝 𝙘𝙤𝙢 𝙖 <a href="https://unimar.br/">UNIMAR</a></p>
 
