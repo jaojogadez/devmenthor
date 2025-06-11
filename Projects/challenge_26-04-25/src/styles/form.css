@@ -1,9 +1,5 @@
 @import url("./global.css");
 /* Main Content Configs */
-.main {
-  justify-content: center;
-  padding: 2rem;
-}
 
 .main .col-6 {
   padding: 1rem;
@@ -11,9 +7,12 @@
 }
 
 .main .col-6.img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: var(--primary-color);
-  text-align: center;
-  height: auto;
+  height: 35vh;
+  width: 100vw;
 }
 
 .main .img {

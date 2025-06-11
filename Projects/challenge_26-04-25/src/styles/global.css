@@ -24,12 +24,11 @@ html {
   background-color: var(--background-color);
   color: var(--text-color);
   font: var(--main-font);
-  overflow-x: hidden !important;
 }
 
 .container {
   display: block;
-  max-width: 1440px;
+  max-width: 2560px;
   min-width: 320px;
   margin: auto;
 }

@@ -8,6 +8,7 @@
 #root .main {
   border-radius: 1rem;
   background-color: var(--background-color);
+  padding: 2rem;
 }
 
 #root .main h1 {
