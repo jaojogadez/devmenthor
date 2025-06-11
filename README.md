@@ -10,67 +10,66 @@ Este repositório contém materiais e exemplos de código utilizados nas sessõe
 
 🔗 Anotei todo o conteúdo das aulas em: [<a href="https://safe-coil-e10.notion.site/DevMenthor-1d3b88e5901b807e9e7fc0d468f148fb" target="_blank">Acesse Aqui</a>]
 
-## 🌐 Deploy da atividade prática Web Login
+## 🌐 Deploy da Atividade Prática Web Login
 ![Projeto  - Web Login Home](https://github.com/user-attachments/assets/fc74d42d-3830-4eaf-878a-1202658a4b19)
 
 ![Projeto  - Web Login Register](https://github.com/user-attachments/assets/68e6dc31-e2f2-46d7-9fec-51b46f03c1c8)
 
-Esse projeto foi uma atividade para colocar em prática os conceitos de HTML e CSS aprendidos até o momento, criando uma interface de login e uma de registro. Para isso, eu utilizei: <br>
+Esse mini-projeto foi uma atividade para colocar em prática os conceitos de HTML e CSS aprendidos até o momento, criando uma interface de login e uma de registro. Para isso, eu utilizei: <br>
 
 ✅ HTML5 e CSS3 para estruração e estilização <br>
 ✅ FlexBox para o layout <br>
 ✅ Adicionei responsividade com um menu lateral, possibilitando o acesso em dispositivos móveis, como o celular. <br>
 ✅ JavaScript para o menu lateral funcionar. <br>
 
-https://jaojogadez.github.io/devmenthor/Projects/loginWeb/
+🔗 **Acesse**: [https://jaojogadez.github.io/devmenthor/Projects/loginWeb/]
 
-## Deploy da Interface da Prova
-https://jaojogadez.github.io/devmenthor/Projects/challenge_26-04-25
+## 🌐 Deploy da Interface da Prova
 
-## Deploy do DevFy
-https://jaojogadez.github.io/devmenthor/Projects/devfy
+🔗 **Acesse**: [https://jaojogadez.github.io/devmenthor/Projects/challenge_26-04-25]
 
-<!--
-## 🚀 Funcionalidades e Conteúdo
+Esse mini-projeto foi feito no dia 26/04, primeira prova do DevMenthors. Teve um formulário e para um acompanhar um desafio prático.
 
-Os arquivos neste repositório demonstram conceitos fundamentais do HTML, incluindo:
+✅ Objetivo: Testar nosso conhecimento básico desenvolvendo uma interface <br>
+✅ HTML5 puro para estruração e CSS3 puro para estilização <br>
+✅ Apesar de não ser obrigatório, adicionei responsividade com FlexBox <br>
+✅ E também JavaScript para o menu lateral (.sidebar) funcionar <br>
 
-✅ **Estrutura Básica do HTML:** Declaração `<!DOCTYPE html>`, organização das tags `<html>`, `<head>` e `<body>`. <br> 
-📌 **Elementos de Cabeçalho:** Uso de `<meta>`, `<title>` e outras tags importantes.  <br> 
-📝 **Títulos e Parágrafos:** Demonstração de `<h1>` a `<h6>` e formatação de textos com `<p>`, `<b>`, `<em>`, `<del>`. <br> 
-🔗 **Links e Imagens:** Uso da tag `<a>` para hiperligações e `<img>` para imagens. <br> 
-🌐 **Links Externos:** Implementação de links com `target="_blank"` para abrir em novas abas. <br> 
-🎨 **Estilização de Imagens:** Aplicando `border-radius` via CSS inline. <br> 
--->
+## 🌐 Deploy do DevFy
+Esse projeto foi desenvolvido acompanhado de um figma, também desenvolvido por nós. Então desenvolvemos tanto o design quanto desse app de músicas. <br>
+
+✅ UI/UX Design<br>
+✅ HTML5 puro para estruração e CSS3 puro para estilização <br>
+
+🔗 **Acesse**: [https://jaojogadez.github.io/devmenthor/Projects/devfy] <br>
+🔗 **Figma**: [https://www.figma.com/design/FTPXI2yKULVBOohSinPD9w/DevFy---%7C-Jo%C3%A3o-Pedro-de-Oliveira-%7C?node-id=2-7916&t=G0303hStSIKOO0zE-1] <br>
 
 ## 🛠️ Tecnologias Utilizadas até o momento
-- **HTML5** – Estrutura.
-- **CSS3** – Estilização.
+- **HTML5** – Estruturação
+- **CSS3** – Estilização
+- **ES6 JavaScript ** – Interação
 
-## 📂 Estrutura do Repositório
+## 📂 Organização dos Arquivos da Mentoria
 
 ```
-📁 devmenthor
- ├── 📂 Classes (conteúdo prático das aulas)
- │   ├── 📂 Class 01
- │   ├── 📂 Class 02
- │   ├── 📂 Class 03
- ├── 📂 Exercises 
- │   ├── 📂 exercise_01
- │   ├── 📂 exercise_02
- ├── 📂 loginWeb 
- │   ├── 📂 src
- │   │   ├── 📂 assets
- │   │   │   ├── cadastre.png
- │   │   │   ├── login.png
- │   │   │   ├── close.svg
- │   │   ├── 📂 styles
- │   │   │   ├── index.css
- │   │   ├── script.js
- │   ├── index.html
- │   ├── register.html
- ├── README.md
- ├── LICENSE
+📁 devmenthors/
+│
+├── 📂 aulas/
+│   ├── 📂 class_01/   # 🎓 Aula 01
+│   ├── 📂 class_02/   # 🎓 Aula 02
+│   ├── 📂 class_03/   # 🎓 Aula 03
+├── 📂 exercises/ 
+│       ├── 📂 exercise_01/  # 📝 Exercício 01
+│       └── 📂 exercise_02/  # 📝 Exercício 02
+│
+├── 📂 projects/
+│   ├── 📂 challenge_26-04-25/  # 🏆 Desafio da Prova
+│   ├── 📂 devfy/               # 💻 Projeto DevFY
+│   ├── 📂 loginWeb/            # 🔐 Atividade Prática
+│   └── 📂 minicurso-django/    # 🐍 Mini-curso Django
+│
+├── 📜 LICENSE        # ⚖️ Licença
+└── 📄 README.md      # 📖 Documentação Principal
 ```
 # ⚠️ Atenção - Repositório em Desenvolvimento...
 Para qualquer dúvida ou problema, entre em contato via GitHub: [@jaojogadez](https://github.com/jaojogadez).
