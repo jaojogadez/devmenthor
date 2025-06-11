@@ -22,10 +22,13 @@ Esse projeto foi uma atividade para colocar em prática os conceitos de HTML e C
 ✅ Adicionei responsividade com um menu lateral, possibilitando o acesso em dispositivos móveis, como o celular. <br>
 ✅ JavaScript para o menu lateral funcionar. <br>
 
-https://jaojogadez.github.io/devmenthor/loginWeb
+https://jaojogadez.github.io/devmenthor/Projects/loginWeb/
 
 ## Deploy da Interface da Prova
-https://jaojogadez.github.io/devmenthor/challenge_26-04-25
+https://jaojogadez.github.io/devmenthor/Projects/challenge_26-04-25
+
+## Deploy do DevFy
+https://jaojogadez.github.io/devmenthor/Projects/devfy
 
 <!--
 ## 🚀 Funcionalidades e Conteúdo
