@@ -1,23 +1,23 @@
 /* Register Page Start */
 #root {
-    min-height: 100vh;
-    display: flex;
-    background-color: var(--primary-color);
+  min-height: 100vh;
+  display: flex;
+  background-color: var(--primary-color);
 }
 
 #root .main {
-    border-radius: 1rem;
-    background-color: var(--background-color);
+  border-radius: 1rem;
+  background-color: var(--background-color);
 }
 
 #root .main h1 {
-    text-align: center;
+  text-align: center;
 }
 
 #root form {
-    box-shadow: none;
-    margin-top: 1rem;
-    padding: 0;
+  box-shadow: none;
+  margin-top: 1rem;
+  padding: 0;
 }
 
 /* Register Page End */

@@ -3,69 +3,67 @@
 
 /* General Configs */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
-    --primary-color: royalblue;
-    --secondary-color: #555;
-    --background-color: #ffffff;
-    --input-bg-color: #f1f1f1;
-    --button-bg-color: #0275d8;
-    --text-color: #010101;
-    --main-font: normal 500 1em "Poppins", sans-serif;
-    --transition: all 200ms ease-in-out;
+  --primary-color: royalblue;
+  --secondary-color: #555;
+  --background-color: #ffffff;
+  --input-bg-color: #f1f1f1;
+  --button-bg-color: #0275d8;
+  --text-color: #010101;
+  --main-font: normal 500 1em "Poppins", sans-serif;
+  --transition: all 200ms ease-in-out;
 }
 
 body,
 html {
-    background-color: var(--background-color);
-    color: var(--text-color);
-    font: var(--main-font);
-    overflow-x: hidden !important;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font: var(--main-font);
+  overflow-x: hidden !important;
 }
 
 .container {
-    display: block;
-    max-width: 1440px;
-    min-width: 320px;
-    margin: auto
+  display: block;
+  max-width: 1440px;
+  min-width: 320px;
+  margin: auto;
 }
 
 .material-icons {
-    cursor: pointer;
-    transition: all 300ms ease-in-out;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
 }
 
 .material-icons:hover {
-    opacity: .5;
+  opacity: 0.5;
 }
 
 .material-symbols-outlined {
-    color: white;
-    position: absolute;
-    font-size: 2em;
-    top: 1rem;
-    left: 1rem;
-    cursor: pointer;
-    transition: var(--transition);
-    padding: .5rem;
-    border-radius: 50%;
+  color: white;
+  position: absolute;
+  font-size: 2em;
+  top: 1rem;
+  left: 1rem;
+  cursor: pointer;
+  transition: var(--transition);
+  padding: 0.5rem;
+  border-radius: 50%;
 }
 
 .material-symbols-outlined:hover {
-    transform: scale(1.2);
-    background-color: rgb(58, 94, 201);
+  transform: scale(1.2);
+  background-color: rgb(58, 94, 201);
 }
 
 .active {
-    color: var(--primary-color) !important;
+  color: var(--primary-color) !important;
 }
 
 .text-secondary {
-    color: var(--secondary-color);
+  color: var(--secondary-color);
 }
-
-
