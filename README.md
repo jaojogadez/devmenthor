@@ -42,12 +42,14 @@ Esse projeto foi desenvolvido acompanhado de um figma, também desenvolvido por 
 ✅ HTML5 puro para estruração e CSS3 puro para estilização <br>
 
 🔗 **Acesse**: [https://jaojogadez.github.io/devmenthor/Projects/devfy] <br>
-🔗 **Figma**: [https://www.figma.com/design/FTPXI2yKULVBOohSinPD9w/DevFy---%7C-Jo%C3%A3o-Pedro-de-Oliveira-%7C?node-id=2-7916&t=G0303hStSIKOO0zE-1] <br>
+
+![figma](https://github.com/user-attachments/assets/5b530173-d523-4e32-b01a-08b2f2ac9a37)
+🔗 **Veja você mesmo o FIGMA e compare Design X Deploy**: <a href="https://www.figma.com/design/FTPXI2yKULVBOohSinPD9w/DevFy---%7C-Jo%C3%A3o-Pedro-de-Oliveira-%7C?node-id=2-7916&t=G0303hStSIKOO0zE-1">Acesse Aqui!</a> <br>
 
 ## 🛠️ Tecnologias Utilizadas até o momento
 - **HTML5** – Estruturação
 - **CSS3** – Estilização
-- **ES6 JavaScript ** – Interação
+- **ES6 JavaScript** – Interação
 
 ## 📂 Organização dos Arquivos da Mentoria
 
