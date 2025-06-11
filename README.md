@@ -8,7 +8,7 @@ Este repositório contém materiais e exemplos de código utilizados nas sessõe
 
 ![devmenthors](https://github.com/user-attachments/assets/63e3cbe1-e0fa-4ab3-9005-078777bc58d5)
 
-🔗 Anotei todo o conteúdo das aulas em: [<a href="https://safe-coil-e10.notion.site/DevMenthor-1d3b88e5901b807e9e7fc0d468f148fb" target="_blank">Acesse Aqui</a>]
+🔗 Anotei todo o conteúdo das aulas no Notion: [<a href="https://safe-coil-e10.notion.site/DevMenthor-1d3b88e5901b807e9e7fc0d468f148fb" target="_blank">Acesse Aqui</a>]
 
 ## 🌐 Deploy da Atividade Prática Web Login
 ![Projeto  - Web Login Home](https://github.com/user-attachments/assets/fc74d42d-3830-4eaf-878a-1202658a4b19)
