@@ -37,7 +37,9 @@ Esse mini-projeto foi feito no dia 26/04, primeira prova do DevMenthors. Teve um
 ✅ Apesar de não ser obrigatório, adicionei responsividade com FlexBox <br>
 ✅ E também JavaScript para o menu lateral (.sidebar) funcionar <br>
 
-**Desenvolvendo...** 📱
+**Desenvolvendo...** 📱 
+<br>
+<br>
 ![vscode](https://github.com/user-attachments/assets/65b6e072-0ae4-4b27-ad0e-1fca0324534c)
 
 
