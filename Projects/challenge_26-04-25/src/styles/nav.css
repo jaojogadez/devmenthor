@@ -1,0 +1,84 @@
+/* Navbar configs */
+.navbar {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.185);
+    z-index: 9999;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.navbar .nav-logo {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: 1.2em;
+    flex: 1;
+}
+
+.navbar .navbar-nav {
+    visibility: hidden;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1;
+    margin-right: 3rem;
+}
+
+/* Sidebar Configs */
+.sidebar {
+    position: absolute;
+    padding: 1rem 0;
+    background-color: var(--background-color);
+    width: 50vw;
+    height: 110vh !important;
+    top: 0;
+    right: -100%;
+    padding: 0 3rem;
+    box-shadow: 0 0 40px black;
+    transition: all 300ms ease-in-out;
+}
+
+.sidebar .sidebar-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem ;
+}
+
+.sidebar .sidebar-header span,
+.navbar span {
+    cursor: pointer;
+}
+
+.sidebar .sidebar-header span:hover,
+.navbar span:hover {
+    opacity: .5;
+}
+
+.sidebar.show-sidebar {
+    right: 0;
+}
+
+.sidebar .navbar-nav {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+/* Nav Links configs */
+.navbar .navbar-nav .nav-link,
+.sidebar .navbar-nav .nav-link {
+    text-decoration: none;
+    color: var(--text-color);
+    transition: var(--transition);
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.sidebar .navbar-nav .nav-link:hover {
+    color: var(--primary-color);
+}
