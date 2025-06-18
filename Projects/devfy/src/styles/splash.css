@@ -1,37 +1,49 @@
 @import url("./vars.css");
 
 .container-sm .col-6:first-child {
-    background: transparent url("../assets/logo.png") no-repeat right center/cover ;
+  background: transparent url("../assets/logo.png") no-repeat right center/cover;
 }
 
 .col-6 h1 {
-    color: var(--branco);
-    font-size: calc(1em + 5vw);
-    max-width: 450px;
+  color: var(--branco);
+  font-size: calc(1em + 5vw);
+  max-width: 450px;
 }
 
 .container-sm .col-6:nth-child(2) {
-    padding: 2rem;
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-    justify-content: space-around;
-    gap: 3rem;
+  padding: 2rem;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 3rem;
 }
 
 .btn {
-    width: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    border: 0;
-    background-color: transparent;
-    color: var(--branco);
-    font: normal bold 2em var(--font);
-    cursor: pointer;
-    transition: all 200ms ease-in-out;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 0;
+  background-color: transparent;
+  color: var(--branco);
+  font: normal bold 2em var(--font);
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
 }
 
 .btn:hover {
-    transform: scale(.9);
+  transform: scale(0.9);
+}
+
+@media (min-width: 768px) {
+  .container-sm .col-6:first-child {
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .desktop {
+    display: block !important;
+  }
 }

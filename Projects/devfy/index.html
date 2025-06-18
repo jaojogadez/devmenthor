@@ -10,7 +10,9 @@
 <body>
     <main class="container">
         <div class="container-sm">
-            <section class="col-6"></section>
+            <section class="col-6">
+                <img src="./src/assets/disco.png" alt="disco" class="disco desktop">
+            </section>
             <section class="col-6">
                 <h1>Olá Bem Vindo ao DevFy</h1>
                 <button class="btn" type="button" id="playButton">
@@ -20,8 +22,19 @@
             </section>
         </div>
         <div class="splash-animation">
-            <h1>DevFy</h1>
-            <img src="./src/assets/disco.png" alt="disco girando" class="disco">
+            <div class="loader">
+                <div class="loader-inner">
+                    <div class="loader-block"></div>
+                    <div class="loader-block"></div>
+                    <div class="loader-block"></div>
+                    <div class="loader-block"></div>
+                    <div class="loader-block"></div>
+                    <div class="loader-block"></div>
+                    <div class="loader-block"></div>
+                    <div class="loader-block"></div>
+                </div>
+            </div>
+            <img src="./src/assets/disco.png" alt="disco girando" class="disco d-none">
             <div class="spinner"></div>
         </div>
     </main>
