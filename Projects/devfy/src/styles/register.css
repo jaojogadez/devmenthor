@@ -1,0 +1,21 @@
+@import url("./vars.css");
+
+.container-sm .col-6:first-child {
+  background: transparent url("../assets/disco.png") no-repeat right
+    center/cover;
+  height: 40%;
+}
+
+.col-6 h1 {
+  color: var(--preto);
+  font-size: 5vw;
+}
+
+.container-sm .col-6:nth-child(2) {
+  text-align: center;
+  background-color: var(--branco);
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

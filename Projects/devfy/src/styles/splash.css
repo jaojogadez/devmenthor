@@ -37,13 +37,5 @@
 }
 
 @media (min-width: 768px) {
-  .container-sm .col-6:first-child {
-    background: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .desktop {
-    display: block !important;
-  }
+  
 }
