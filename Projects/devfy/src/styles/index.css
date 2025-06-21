@@ -41,7 +41,7 @@ html {
 }
 
 .col-6 h1 {
-    font-size: calc(1.5em + 3vw);
+  font-size: calc(1.5em + 3vw);
 }
 
 .desktop {

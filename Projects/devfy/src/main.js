@@ -14,4 +14,8 @@ function showSplash() {
     content.style.display = "none";
     splashAnimation.classList.add("active");
   }, 500);
+  
+  setTimeout(() => {
+    location.href = "./src/views/login.html";
+  }, 3000);
 }
