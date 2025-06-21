@@ -17,5 +17,5 @@ function showSplash() {
   
   setTimeout(() => {
     location.href = "./src/views/login.html";
-  }, 3000);
+  }, 4000);
 }
