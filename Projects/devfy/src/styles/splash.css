@@ -6,8 +6,6 @@
 
 .col-6 h1 {
   color: var(--branco);
-  font-size: calc(1em + 5vw);
-  max-width: 450px;
 }
 
 .container-sm .col-6:nth-child(2) {
@@ -17,6 +15,7 @@
   align-items: center;
   justify-content: space-around;
   gap: 3rem;
+  border: 1px solid;
 }
 
 .btn {
@@ -34,8 +33,4 @@
 
 .btn:hover {
   transform: scale(0.9);
-}
-
-@media (min-width: 768px) {
-  
 }

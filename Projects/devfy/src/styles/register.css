@@ -10,7 +10,6 @@
 
 .col-6 h1 {
   color: var(--preto);
-  font-size: 5vw;
   margin-bottom: 3rem;
 }
 
@@ -29,7 +28,7 @@
 .form {
   display: block;
   width: 80%;
-  margin-bottom: 2rem;
+  margin-bottom: 3.5rem;
 }
 
 .input-group {
@@ -88,4 +87,15 @@
 
 .btn:active {
   transform: scale(0.9);
+}
+
+small,
+small a {
+  color: var(--preto);
+  text-decoration: none;
+}
+
+small a:hover {
+  color: var(--azul-claro);
+  text-decoration: underline;
 }

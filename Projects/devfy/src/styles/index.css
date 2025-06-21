@@ -7,39 +7,43 @@
 /* Global Configs */
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body,
 html {
-    background-color: var(--azul-claro);
-    font: var(--font);
-    height: 100%;
+  background-color: var(--azul-claro);
+  font: var(--font);
+  height: 100%;
 }
 
 .container {
-    max-width: 1140px;
-    width: 100%;
-    height: 100%;
-    margin: auto;
+  max-width: 1760px;
+  width: 100%;
+  height: 100%;
+  margin: auto;
 }
 
 .container-sm {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    transition: all .5s ease-out;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s ease-out;
 }
 
 .col-6 {
-    width: 100%;
-    height: 49.5vh;
+  width: 100%;
+  height: 49.5vh;
+}
+
+.col-6 h1 {
+    font-size: calc(1.5em + 3vw);
 }
 
 .desktop {
-    display: none;
+  display: none;
 }
