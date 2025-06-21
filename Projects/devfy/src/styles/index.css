@@ -16,7 +16,6 @@ body,
 html {
   background-color: var(--azul-claro);
   font: var(--font);
-  height: 100%;
 }
 
 .container {
@@ -46,4 +45,8 @@ html {
 
 .desktop {
   display: none;
+}
+
+.shadow {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
 }
