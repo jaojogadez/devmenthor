@@ -19,4 +19,8 @@
   .container-sm .col-6:nth-child(2) {
     height: 100% !important;
   }
+
+  .container #signUp .col-6:first-child {
+    order: 2;
+  }
 }
