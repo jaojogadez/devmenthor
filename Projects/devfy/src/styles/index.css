@@ -16,6 +16,8 @@ body,
 html {
   background-color: var(--azul-claro);
   font: var(--font);
+  height: 100%;
+  overflow-x: hidden !important;
 }
 
 .container {

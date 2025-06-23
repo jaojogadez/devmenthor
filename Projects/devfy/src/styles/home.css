@@ -1,12 +1,7 @@
-* {
-    border: 1px solid;
-}
-
 @import url("../styles/vars.css");
 
 body {
     background-color: var(--branco);
-    min-height: 100vh;
 }
 
 /* Navbar */
@@ -87,7 +82,7 @@ header i {
     justify-content: space-between;
     background-color: var(--cinza);
     padding: 0 1rem;
-    height: 55px;
+    height: 65px;
 }
 
 .container-md .song .song-details {
@@ -116,3 +111,38 @@ header i {
 }
 
 /* Nav */
+.navbar {
+    display: block;
+    width: 100%;
+    background-color: var(--branco);
+    padding: .5rem 1.5rem ;
+    border-top: 1px solid var(--cinza);
+    margin-top: 1.5rem;
+}
+
+.navbar .nav {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .nav .nav-item .nav-link{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--preto);
+    text-decoration: none;
+}
+
+.navbar .nav .nav-item .nav-link:hover {
+    color: var(--azul);
+}
+
+.navbar .nav .nav-item .nav-link p {
+    font-size: .8em;
+}
+
+.active a{
+    color: var(--azul) !important;
+}
