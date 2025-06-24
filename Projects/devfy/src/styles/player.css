@@ -1,3 +1,5 @@
+@import url("../styles/vars.css");
+
 body {
     background-color: var(--branco);
 }
@@ -8,21 +10,78 @@ body {
 
 .container {
     max-width: 950px !important;
-}
-
-header {
     padding: 1.5rem;
+    height: auto;
 }
 
-.icon-btn {
-    background-color: var(--branco);
-    border: 0;
-    cursor: pointer;
+.container-fluid {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 1rem 0;
+}
+
+.container-fluid img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.container-md {
+    max-width: 568px;
+    margin: 0 auto;
+}
+
+.container-md h1 {
+    font-size: calc(1em + 2vw);
+}
+
+/* Barra de Progresso */
+
+.seek-bar {
+    height: 80px;
+    padding: 1rem 0;
+    position: relative;
+}
+
+.seek-bar .bar {
+    height: 5px;
+    width: 100%;
+    position: absolute;
+}
+
+.seek-bar .bar::after {
+    content: "";
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    background-color: #A0A0A0;
     border-radius: 50%;
+    top: -220%;
+    left: 37%;
 }
 
-.icon-btn i {
-    font-size: 2.2em;
+.seek-bar .bar .before,
+.seek-bar .bar .after {
+    height: 5px;
+    position: absolute;
 }
 
-.icon-btn:hhover
+.seek-bar .bar .before {
+    width: 40%;
+    background-color: var(--azul-claro);
+}
+
+.seek-bar .bar .after {
+    width: 60%;
+    right: 0;
+    background-color: var(--preto);
+}
+
+.seek-bar .time {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
