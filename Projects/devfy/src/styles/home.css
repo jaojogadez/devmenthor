@@ -59,6 +59,7 @@ header i {
 .container-md .covers .cover-item {
     padding: .5rem;
     min-width: 0;
+    cursor: pointer;
 }
 
 .container-md .covers .cover-item img {
@@ -116,7 +117,7 @@ header i {
     background-color: var(--branco);
     padding: .5rem 1.5rem ;
     border-top: 1px solid var(--cinza);
-    margin-top: 1.5rem;
+    margin-top: 0;
     z-index: 1000;
 }
 

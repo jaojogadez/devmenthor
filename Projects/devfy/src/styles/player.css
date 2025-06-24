@@ -1,0 +1,28 @@
+body {
+    background-color: var(--branco);
+}
+
+* {
+    border: 1px solid;
+}
+
+.container {
+    max-width: 950px !important;
+}
+
+header {
+    padding: 1.5rem;
+}
+
+.icon-btn {
+    background-color: var(--branco);
+    border: 0;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.icon-btn i {
+    font-size: 2.2em;
+}
+
+.icon-btn:hhover
