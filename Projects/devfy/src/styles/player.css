@@ -38,7 +38,6 @@ body {
 }
 
 /* Barra de Progresso */
-
 .seek-bar {
     height: 80px;
     padding: 1rem 0;
@@ -84,4 +83,36 @@ body {
     align-items: center;
     justify-content: space-between;
     margin-top: 1rem;
+}
+
+/* Controls Buttons */
+
+.play {
+    background-color: var(--cinza);
+    padding: .7rem;
+    margin: 1rem 0;
+}
+
+.play .heart {
+    color: crimson;
+}
+
+.play.shadow {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15) !important;
+}
+
+small {
+    padding: 0 .5rem;
+}
+
+small.space-between strong, 
+small .icon-btn {
+    font-weight: 550;
+    text-transform: uppercase;
+    font-size: .8em !important;
+}
+
+small .flex-column span {
+    color: #A0A0A0;
+    font-size: .8em;
 }

@@ -71,3 +71,14 @@ html {
   background-color: rgba(211, 211, 211, 0.5);
   transform: scale(1.05);
 }
+
+.space-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
