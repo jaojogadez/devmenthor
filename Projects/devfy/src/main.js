@@ -1,6 +1,6 @@
 const button = document.getElementById("playButton");
 const content = document.querySelector(".container-sm");
-const splashAnimation = document.querySelector(".splash-animation");
+const splashContainer = document.querySelector(".splash-animation");
 
 button.onclick = () => startSplash();
 
@@ -12,7 +12,7 @@ function startSplash() {
 function showSplash() {
   setTimeout(() => {
     content.style.display = "none";
-    splashAnimation.classList.add("active");
+    splashContainer.classList.add("active");
   }, 500);
   
   setTimeout(() => {

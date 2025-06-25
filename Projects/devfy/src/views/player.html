@@ -12,9 +12,13 @@
 <body>
     <main class="container">
         <header>
-            <button type="button" class="icon-btn">
-                <i class="material-icons">arrow_back</i>
-            </button>
+            <abbr title="Voltar">
+                <a href="../views/home.html">
+                    <button type="button" class="icon-btn">
+                        <i class="material-icons">arrow_back</i>
+                    </button>
+                </a>
+            </abbr>
         </header>
         <section class="container-sm">
             <div class="container-fluid col-6">
@@ -41,20 +45,28 @@
                 </div> 
                 <div class="container-md">
                     <div class="space-between">
-                        <button type="button" class="icon-btn play shadow">
-                            <i class="material-icons">music_note</i>
-                        </button>
-                        <button type="button" class="icon-btn play shadow">
-                            <i class="material-icons heart">favorite</i>
-                        </button>
+                        <abbr title="Add a Playlist">
+                            <button type="button" class="icon-btn play shadow">
+                                <i class="material-icons">music_note</i>
+                            </button>
+                        </abbr>
+                        <abbr title="Curtir">
+                            <button type="button" class="icon-btn play shadow">
+                                <i class="material-icons heart">favorite</i>
+                            </button>
+                        </abbr>
                     </div>
                 </div>
-                <div class="container-md">
+                
+            </div>
+            <div class="container-md w-100">
                     <small class="space-between">
                         <strong>Up Next</strong>
-                        <button type="button" class="icon-btn">
-                            <i class="material-icons">queue_music</i>
-                        </button>
+                        <abbr title="Letra">
+                            <button type="button" class="icon-btn">
+                                <i class="material-icons">queue_music</i>
+                            </button>
+                        </abbr>
                     </small>
                     <small class="space-between">
                         <p class="flex-column">
@@ -70,6 +82,34 @@
                             <span>4:19</span>
                         </p>
                     </small>
+            </div>
+            <div class="container-md w-100">
+                <div class="space-between">
+                    <abbr title="Ordem Aleatória">
+                        <button type="button" class="icon-btn">
+                            <i class="material-icons">shuffle</i>
+                        </button>
+                    </abbr>
+                    <abbr title="Previous">
+                        <button type="button" class="icon-btn play">
+                            <i class="material-icons">skip_previous</i>
+                        </button>
+                    </abbr>
+                    <abbr title="Pause">
+                        <button type="button" class="icon-btn play pause">
+                            <i class="material-icons">pause</i>
+                        </button>
+                    </abbr>
+                    <abbr title="Skip">
+                        <button type="button" class="icon-btn play">
+                            <i class="material-icons">skip_next</i>
+                        </button>
+                    </abbr>
+                    <abbr title="Repetir">
+                        <button type="button" class="icon-btn">
+                            <i class="material-icons">repeat</i>
+                        </button>
+                    </abbr>
                 </div>
             </div>
         </section>
