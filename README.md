@@ -28,14 +28,14 @@ Esse mini-projeto foi uma atividade para colocar em prática os conceitos de HTM
 ![prova-tela-1](https://github.com/user-attachments/assets/db0481e6-fe4b-4360-88f4-f406f135cbd5)
 ![prova-tela-2](https://github.com/user-attachments/assets/48703648-df59-45fb-a64a-d51015b9d3ac)
 
-🔗 **Acesse**: [https://jaojogadez.github.io/devmenthor/Projects/challenge_26-04-25]
-
-Esse mini-projeto foi feito no dia 26/04, primeira prova do DevMenthors. Teve um formulário e para um acompanhar um desafio prático.
+Esse mini-projeto foi feito no dia 26/04, primeira prova do DevMenthors. Teve um formulário e para acompanhar um desafio prático.
 
 ✅ Objetivo: Testar nosso conhecimento básico desenvolvendo uma interface <br>
 ✅ HTML5 puro para estruração e CSS3 puro para estilização <br>
 ✅ Apesar de não ser obrigatório, adicionei responsividade com FlexBox <br>
 ✅ E também JavaScript para o menu lateral (.sidebar) funcionar <br>
+
+🔗 **Acesse**: [https://jaojogadez.github.io/devmenthor/Projects/challenge_26-04-25]
 
 **Desenvolvendo...** 📱 
 <br>
@@ -44,7 +44,8 @@ Esse mini-projeto foi feito no dia 26/04, primeira prova do DevMenthors. Teve um
 
 
 ## 🌐 Deploy do DevFy
-Esse projeto foi desenvolvido acompanhado de um figma, também desenvolvido por nós. Então desenvolvemos tanto o design quanto desse app de músicas. <br>
+Esse projeto foi desenvolvido acompanhado de um figma, também desenvolvido por nós. Então desenvolvemos tanto o design quanto desse app de músicas.
+Projeto ainda em desenvolvimento... <br>
 
 ✅ UI/UX Design<br>
 ✅ HTML5 puro para estruração e CSS3 puro para estilização <br>
@@ -68,6 +69,7 @@ Esse projeto foi desenvolvido acompanhado de um figma, também desenvolvido por 
 │   ├── 📂 class_01/   # 🎓 Aula 01
 │   ├── 📂 class_02/   # 🎓 Aula 02
 │   ├── 📂 class_03/   # 🎓 Aula 03
+│
 ├── 📂 exercises/ 
 │       ├── 📂 exercise_01/  # 📝 Exercício 01
 │       └── 📂 exercise_02/  # 📝 Exercício 02
