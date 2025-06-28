@@ -28,8 +28,12 @@
     order: 2;
   }
 
-  header .icon-btn {
+  #menu-button {
     display: none;
+  }
+
+  .container-md .song {
+    max-width:  450px;
   }
 
 }

@@ -12,38 +12,44 @@
 </head>
 <body>
     <aside class="sidebar desktop shadow">
-        <div class="sidebar-top">
-            <img src="../assets/disco.png" alt="disco">
-            <h1>DevFy</h1>
+        <div class="sidebar-content">
+            <div class="sidebar-top">
+                <img src="../assets/disco.png" alt="disco">
+                <h1>DevFy</h1>
+            </div>
+            <nav class="navbar ">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a href="" class="nav-link">
+                            <i class="material-icons">home</i>
+                            <p>Home</p>
+                        </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="" class="nav-link">
+                            <i class="material-icons">analytics</i>
+                            <p>Analytics</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">
+                            <i class="material-icons">history</i>
+                            <p>History</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">
+                            <i class="material-icons">person</i>
+                            <p>Profile</p>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
         </div>
-        <nav class="navbar ">
-            <ul class="nav">
-                <li class="nav-item">
-                    <a href="" class="nav-link">
-                        <i class="material-icons">home</i>
-                        <p>Home</p>
-                    </a>
-                </li>
-                <li class="nav-item active">
-                    <a href="" class="nav-link">
-                        <i class="material-icons">analytics</i>
-                        <p>Analytics</p>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="" class="nav-link">
-                        <i class="material-icons">history</i>
-                        <p>History</p>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="" class="nav-link">
-                        <i class="material-icons">person</i>
-                        <p>Profile</p>
-                    </a>
-                </li>
-            </ul>
-        </nav>
+        <button type="button" class="btn btn-logout">
+            <i class="material-icons">door_back</i>
+            Sair
+        </button>
     </aside>
     <div class="main-container">
         <header>
@@ -62,7 +68,7 @@
                     </button>
                 </form>
             </div>
-            <button type="button" class="icon-btn">
+            <button type="button" class="icon-btn" id="menu-button">
                 <i class="material-icons">menu</i>
             </button>
             <button type="button" class="btn">
