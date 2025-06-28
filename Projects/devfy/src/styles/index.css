@@ -50,6 +50,10 @@ html {
   display: none;
 }
 
+.mobile {
+  display: block;
+}
+
 .shadow {
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
 }
@@ -86,4 +90,11 @@ html {
 .w-100 {
   width: 100%;
   max-width: none !important;
+}
+
+.btn { 
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  padding: .75rem;
 }

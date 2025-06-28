@@ -15,6 +15,10 @@
     display: block !important;
   }
 
+  .mobile {
+    display: none !important;
+  }
+
   .container-sm .col-6:first-child,
   .container-sm .col-6:nth-child(2) {
     height: 100% !important;
@@ -23,4 +27,9 @@
   .container #signUp .col-6:first-child {
     order: 2;
   }
+
+  header .icon-btn {
+    display: none;
+  }
+
 }
