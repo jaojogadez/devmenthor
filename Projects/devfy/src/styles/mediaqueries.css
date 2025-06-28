@@ -36,4 +36,7 @@
     max-width:  450px;
   }
 
+  .sidebar {
+    display: flex !important;
+  }
 }

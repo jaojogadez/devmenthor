@@ -239,7 +239,7 @@ input:not(:placeholder-shown) ~ .reset {
 
 /* Sidebar */
 .sidebar {
-    display: flex !important;
+    display: none;
     flex-direction: column;
     width: 20%;
     min-height: 100vh;
