@@ -44,16 +44,17 @@ Esse mini-projeto foi feito no dia 26/04, primeira prova do DevMenthors. Teve um
 
 
 ## 🌐 Deploy do DevFy
-Esse projeto foi desenvolvido acompanhado de um figma, também desenvolvido por nós. Então desenvolvemos tanto o design quanto desse app de músicas.
-Projeto ainda em desenvolvimento... <br>
+Esse projeto foi desenvolvido acompanhado de um figma, também desenvolvido por nós. Então desenvolvemos tanto o design quanto o código desse app de músicas.
 
 ✅ UI/UX Design<br>
 ✅ HTML5 puro para estruração e CSS3 puro para estilização <br>
+✅ Segue o conceito de Mobile First <br>
+✅ Responsividade para tablets, desktop e telas maiores <br>
 
 🔗 **Acesse**: [https://jaojogadez.github.io/devmenthor/Projects/devfy] <br>
 
 ![figma](https://github.com/user-attachments/assets/5b530173-d523-4e32-b01a-08b2f2ac9a37)
-🔗 **Veja você mesmo o FIGMA e compare Design X Deploy**: <a href="https://www.figma.com/design/FTPXI2yKULVBOohSinPD9w/DevFy---%7C-Jo%C3%A3o-Pedro-de-Oliveira-%7C?node-id=2-7916&t=G0303hStSIKOO0zE-1">Acesse Aqui!</a> <br>
+🔗 **Veja você mesmo o FIGMA e compare Design X Deploy**: <a href="https://www.figma.com/design/FTPXI2yKULVBOohSinPD9w/DevFy---%7C-Jo%C3%A3o-Pedro-de-Oliveira-%7C?node-id=2-7916&t=G0303hStSIKOO0zE-1">Acesse Aqui o Figma do Projeto!</a> <br>
 
 ## 🛠️ Tecnologias Utilizadas até o momento
 - **HTML5** – Estruturação
@@ -66,9 +67,10 @@ Projeto ainda em desenvolvimento... <br>
 📁 devmenthors/
 │
 ├── 📂 aulas/
-│   ├── 📂 class_01/   # 🎓 Aula 01
+│   ├── 📂 class_01/   # 🎓 Aula 01 - Primeiros passos com HTML
 │   ├── 📂 class_02/   # 🎓 Aula 02
 │   ├── 📂 class_03/   # 🎓 Aula 03
+│   ├── 📂 class_04/   # 🎓 Aula 04 - Conceitos de Git e Versionamento de Código
 │
 ├── 📂 exercises/ 
 │       ├── 📂 exercise_01/  # 📝 Exercício 01
