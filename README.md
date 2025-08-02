@@ -45,7 +45,7 @@ Esse mini-projeto foi feito no dia 26/04, primeira prova do DevMenthors. Teve um
 
 
 ## 🌐 Deploy do DevFy
-
+<img width="1600" height="900" alt="devfy-desktop" src="https://github.com/user-attachments/assets/4d13571a-6a7f-491b-9511-5d43512733fd" />
 <img width="1600" height="900" alt="devfy" src="https://github.com/user-attachments/assets/3bb42caa-91ab-4965-8d20-181b938f0320" />
 
 Esse projeto foi desenvolvido acompanhado de um figma, também desenvolvido por nós. Então desenvolvemos tanto o design quanto o código desse app de músicas.
@@ -57,7 +57,7 @@ Esse projeto foi desenvolvido acompanhado de um figma, também desenvolvido por 
 
 🔗 **Acesse**: [https://jaojogadez.github.io/devmenthor/Projects/devfy] <br>
 
-![figma](https://github.com/user-attachments/assets/5b530173-d523-4e32-b01a-08b2f2ac9a37)
+![figma](https://github.com/user-attachments/assets/5b530173-d523-4e32-b01a-08b2f2ac9a37) <br>
 🔗 **Veja você mesmo o FIGMA e compare Design X Deploy**: <a href="https://www.figma.com/design/FTPXI2yKULVBOohSinPD9w/DevFy---%7C-Jo%C3%A3o-Pedro-de-Oliveira-%7C?node-id=2-7916&t=G0303hStSIKOO0zE-1">Acesse Aqui o Figma do Projeto!</a> <br>
 
 ## 🛠️ Tecnologias Utilizadas até o momento
