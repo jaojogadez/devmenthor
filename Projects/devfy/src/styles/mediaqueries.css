@@ -33,10 +33,20 @@
   }
 
   .container-md .song {
-    max-width:  450px;
+    max-width: 450px;
   }
 
   .sidebar {
     display: flex !important;
+  }
+
+  .container-md .covers {
+    display: flex !important;
+    flex-flow: row wrap;
+    gap: 3rem;
+  }
+
+  .container-md .covers .cover-item {
+    width: max-content;
   }
 }

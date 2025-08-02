@@ -241,7 +241,7 @@ input:not(:placeholder-shown) ~ .reset {
 .sidebar {
     display: none;
     flex-direction: column;
-    width: 20%;
+    width: 350px;
     min-height: 100vh;
     padding: 1rem 1.5rem;
     box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.1);
