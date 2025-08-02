@@ -19,8 +19,9 @@ Esse mini-projeto foi uma atividade para colocar em prática os conceitos de HTM
 
 ✅ HTML5 e CSS3 para estruração e estilização <br>
 ✅ FlexBox para o layout <br>
-✅ Adicionei responsividade com um menu lateral, possibilitando o acesso em dispositivos móveis, como o celular. <br>
-✅ JavaScript para o menu lateral funcionar. <br>
+✅ Adicionei responsividade com um menu lateral, possibilitando o acesso em dispositivos móveis, como o celular <br>
+✅ JavaScript para o menu lateral funcionar <br>
+✅ Layout com bordas para demonstrar o Box Model <br>
 
 🔗 **Acesse**: [https://jaojogadez.github.io/devmenthor/Projects/loginWeb/]
 
@@ -44,6 +45,9 @@ Esse mini-projeto foi feito no dia 26/04, primeira prova do DevMenthors. Teve um
 
 
 ## 🌐 Deploy do DevFy
+
+<img width="1600" height="900" alt="devfy" src="https://github.com/user-attachments/assets/3bb42caa-91ab-4965-8d20-181b938f0320" />
+
 Esse projeto foi desenvolvido acompanhado de um figma, também desenvolvido por nós. Então desenvolvemos tanto o design quanto o código desse app de músicas.
 
 ✅ UI/UX Design<br>
