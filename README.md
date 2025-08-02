@@ -68,8 +68,8 @@ Esse projeto foi desenvolvido acompanhado de um figma, também desenvolvido por 
 │
 ├── 📂 aulas/
 │   ├── 📂 class_01/   # 🎓 Aula 01 - Primeiros passos com HTML
-│   ├── 📂 class_02/   # 🎓 Aula 02
-│   ├── 📂 class_03/   # 🎓 Aula 03
+│   ├── 📂 class_02/   # 🎓 Aula 02 - Estruturas do HTML como títulos, textos, listas, etc
+│   ├── 📂 class_03/   # 🎓 Aula 03 - Propriedades básicas do CSS como color, background, etc
 │   ├── 📂 class_04/   # 🎓 Aula 04 - Conceitos de Git e Versionamento de Código
 │
 ├── 📂 exercises/ 
