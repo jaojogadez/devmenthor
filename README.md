@@ -44,13 +44,13 @@ Esse mini-projeto foi feito no dia 26/04, primeira prova do DevMenthors. Teve um
 ![vscode](https://github.com/user-attachments/assets/65b6e072-0ae4-4b27-ad0e-1fca0324534c)
 
 
-## 🌐 Deploy do DevFy
+## 🌐 Deploy do DevFy - App de Músicas
 <img width="1600" height="900" alt="devfy-desktop" src="https://github.com/user-attachments/assets/4d13571a-6a7f-491b-9511-5d43512733fd" />
 <img width="1600" height="900" alt="devfy" src="https://github.com/user-attachments/assets/3bb42caa-91ab-4965-8d20-181b938f0320" />
 
-Esse projeto foi desenvolvido acompanhado de um figma, também desenvolvido por nós. Então desenvolvemos tanto o design quanto o código desse app de músicas.
+Esse projeto foi desenvolvido acompanhado de um figma, também desenvolvido por nós. Então desenvolvemos tanto o design quanto o código desse app de músicas. Para isso foi feito:
 
-✅ UI/UX Design<br>
+✅ UI/UX Design com Figma<br>
 ✅ HTML5 puro para estruração e CSS3 puro para estilização <br>
 ✅ Segue o conceito de Mobile First <br>
 ✅ Responsividade para tablets, desktop e telas maiores <br>
