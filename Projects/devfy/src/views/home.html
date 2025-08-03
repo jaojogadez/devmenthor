@@ -11,46 +11,52 @@
     <link rel="stylesheet" href="../styles/carousel.css">
 </head>
 <body>
-    <aside class="sidebar shadow">
-        <div class="sidebar-content">
-            <div class="sidebar-top">
-                <img src="../assets/disco.png" alt="disco">
-                <h1>DevFy</h1>
+   <aside id="sidebar" class="sidebar expand shadow desktop">
+        <div class="sidebar-header">
+            <div class="sidebar-logo">
+            <img src="../assets/disco.png" alt="Logo" width="30" />
+            <span>DevFy</span>
             </div>
-            <nav class="navbar ">
-                <ul class="nav">
-                    <li class="nav-item">
-                        <a href="" class="nav-link">
-                            <i class="material-icons">home</i>
-                            <p>Home</p>
-                        </a>
-                    </li>
-                    <li class="nav-item active">
-                        <a href="" class="nav-link">
-                            <i class="material-icons">analytics</i>
-                            <p>Analytics</p>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="" class="nav-link">
-                            <i class="material-icons">history</i>
-                            <p>History</p>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="" class="nav-link">
-                            <i class="material-icons">person</i>
-                            <p>Profile</p>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
+            <button class="toggle-btn" id="toggle-btn">
+                <i class="material-icons">keyboard_double_arrow_left</i>
+            </button>
         </div>
-        <button type="button" class="btn btn-logout">
+
+        <ul class="sidebar-nav">
+            <li class="sidebar-item">
+            <a href="#" class="sidebar-link">
+                <i class="material-icons">home</i>
+                <span>Home</span>
+            </a>
+            </li>
+            <li class="sidebar-item">
+            <a href="#" class="sidebar-link">
+                <i class="material-icons">analytics</i>
+                <span>Analytics</span>
+            </a>
+            </li>
+            <li class="sidebar-item">
+            <a href="#" class="sidebar-link">
+                <i class="material-icons">history</i>
+                <span>History</span>
+            </a>
+            </li>
+            <li class="sidebar-item">
+            <a href="#" class="sidebar-link">
+                <i class="material-icons">person</i>
+                <span>Profile</span>
+            </a>
+            </li>
+        </ul>
+
+        <div class="sidebar-footer">
+            <a href="#" class="sidebar-link btn-logout">
             <i class="material-icons">door_back</i>
-            Sair
-        </button>
+            <span>Sair</span>
+            </a>
+        </div>
     </aside>
+
     <div class="main-container">
         <header>
             <div class="search desktop">
